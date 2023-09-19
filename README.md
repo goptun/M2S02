@@ -11,3 +11,7 @@ Depto Comercial;
 Depto Financeiro;
 Depto RH;
 Faça um programa que imprima na tela ao usuário suas opções e logo depois imprima qual foi a opção escolhida pelo usuário
+
+### Ex Extra 03 - Calculo Média
+
+Solicite ao usuário 3 notas, de 0.0 a 10.0. Após a terceira nota, calcule a média e apresente o resultado de aprovação ou reprovação. Para aprovação, o aluno deve possuir média superior a 7.0.
