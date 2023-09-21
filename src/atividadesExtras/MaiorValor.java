@@ -1,8 +1,10 @@
+package atividadesExtras;
+
 import java.util.Scanner;
 
 public class MaiorValor {
   public static void main(String[] args) {
-    
+
     Scanner user = new Scanner(System.in);
 
     System.out.print("Digite o primeiro valor: ");
@@ -16,16 +18,15 @@ public class MaiorValor {
 
     double maiorValor = valor1;
 
-    if (valor2 > maiorValor){
+    if (valor2 > maiorValor) {
       maiorValor = valor2;
     }
 
-    if (valor3 > maiorValor){
+    if (valor3 > maiorValor) {
       maiorValor = valor3;
     }
 
     System.out.println("O maior valor é: " + maiorValor);
-
 
     user.close();
   }

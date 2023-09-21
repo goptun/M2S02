@@ -1,5 +1,9 @@
 # M2S02 - Atividades em Java
 
+### [M2S02] Ex 01 - Classe Data
+
+Crie uma classe chamada Data que inclua três variáveis de instância — mês (tipo int), dia (tipo int) e ano (tipo int). Forneça um construtor que inicializa as três variáveis de instância supondo que os valores fornecidos estejam corretos. Ofereça um método set e um get para cada variável de instância. Apresente um método exibirData que exiba mês, dia e ano separados por barras normais (/). Escreva um aplicativo de teste chamado TestaData que demonstre as capacidades da classe Data
+
 ### Ex Extra 01 - Maior Valor
 
 Receber 3 valores de entrada do usuário e retornar o maior deles.

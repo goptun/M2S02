@@ -1,3 +1,5 @@
+package atividadesExtras;
+
 import java.util.Scanner;
 
 public class AtendimentoAutomatizado {
@@ -22,12 +24,12 @@ public class AtendimentoAutomatizado {
       case 2:
         System.out.println("Você selecionou o Depto Financeiro");
         break;
-      case 3: 
+      case 3:
         System.out.println("Você selecionou o Depto RH");
         break;
       default:
-          System.out.println("Por favor, escolha uma opção válida!");
-          break;
+        System.out.println("Por favor, escolha uma opção válida!");
+        break;
     }
     user.close();
   }
