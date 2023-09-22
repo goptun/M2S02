@@ -4,6 +4,10 @@
 
 Crie uma classe chamada Data que inclua três variáveis de instância — mês (tipo int), dia (tipo int) e ano (tipo int). Forneça um construtor que inicializa as três variáveis de instância supondo que os valores fornecidos estejam corretos. Ofereça um método set e um get para cada variável de instância. Apresente um método exibirData que exiba mês, dia e ano separados por barras normais (/). Escreva um aplicativo de teste chamado TestaData que demonstre as capacidades da classe Data
 
+### [M2S02] Ex 02 - Pessoa Física
+
+Crie uma classe PessoaFisica e pense em quais atributos ela deve possuir. Um deles, obrigatoriamente, será o CPF. Garanta que nenhuma pessoa física seja criada sem um CPF, e que nenhuma pessoa física possua um CPF inválido. (Não é preciso criar o algoritmo de validação de CPF, apenas a assinatura do método)
+
 ### Ex Extra 01 - Maior Valor
 
 Receber 3 valores de entrada do usuário e retornar o maior deles.
