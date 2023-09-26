@@ -28,6 +28,14 @@ Crie uma classe chamada FrequenciaCardiaca. Os atributos da classe devem incluir
 
 A classe também deve incluir um método que calcule e retorne a idade (em anos), um que calcule e retorne a frequência cardíaca máxima e um que calcule e retorne a frequência cardíaca alvo da pessoa. Escreva um aplicativo Java que solicite as informações da pessoa, instancie um objeto da classe FrequenciaCardiaca e imprima as informações a partir desse objeto — incluindo nome, sobrenome e data de nascimento da pessoa — calcule e imprima a idade da pessoa (em anos), seu intervalo de frequência cardíaca máxima e sua frequência cardíaca alvo.
 
+### [M2S02] Ex 06 - Perfil de Saúde
+
+A digitalização dos registros de saúde pode facilitar que pacientes compartilhem seus perfis e históricos de saúde entre vários profissionais de saúde. Isso talvez aprimore a qualidade da assistência médica, ajude a evitar conflitos e prescrições erradas de medicamentos, reduza custos em ambulatórios e salve vidas. Neste exercício, você projetará uma classe PerfilDeSaude para uma pessoa. Os atributos da classe devem incluir nome, sobrenome, sexo, data de nascimento, altura (em metros) e peso (em quilogramas) da pessoa. Sua classe deve ter um construtor que receba esses dados.
+
+Para cada atributo, analise a necessidade de fornecer métodos set e get. A classe também deve incluir métodos que calculem e retornem a idade do usuário em anos, intervalo de frequência cardíaca máxima e frequência cardíaca alvo (vide exercício anterior), além de índice de massa corporal (IMC, pesquise a fórmula).
+
+Escreva um aplicativo Java que solicite as informações da pessoa (utilize Scanner), instancie um objeto da classe PerfilDeSaude para ela e imprima as informações a partir desse objeto — incluindo nome, sobrenome, sexo, data de nascimento, altura e peso da pessoa ––, e então calcule e imprima a idade em anos, IMC, intervalo de frequência cardíaca máxima e frequência cardíaca alvo.
+
 ### Ex Extra 01 - Maior Valor
 
 Receber 3 valores de entrada do usuário e retornar o maior deles.
