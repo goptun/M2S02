@@ -12,6 +12,12 @@ Crie uma classe PessoaFisica e pense em quais atributos ela deve possuir. Um del
 
 Crie uma classe Retangulo com os atributos comprimento e largura, cada um dos quais assume o valor padrão de 1. Forneça os métodos que calculam o perímetro e a área do retângulo. A classe tem métodos set e get para o comprimento e a largura. Os métodos set devem verificar se comprimento e largura são, cada um, números de ponto flutuante maiores que 0,0 e menores que 20,0. Escreva um programa para testar a classe Retangulo.
 
+### [M2S02] Ex 04 - Fatura
+
+Crie uma classe chamada Fatura para que uma loja de suprimentos de informática a utilize para representar uma fatura de um item vendido nela. Uma fatura deve incluir quatro partes das informações como variáveis de instância — o número (tipo String), a descrição (tipo String), a quantidade comprada de um item (tipo int) e o preço por item (double). Sua classe deve ter um construtor que inicializa as quatro variáveis de instância. Forneça um método set e um get para cada variável de instância.
+
+Além disso, forneça um método chamado getValorFatura que calcula o valor da fatura (isto é, multiplica a quantidade pelo preço por item) e depois retorna esse valor como double. Se a quantidade não for positiva, ela deve ser configurada como 0. Se o preço por item não for positivo, ele deve ser configurado como 0.0. Escreva um aplicativo de teste chamado TestaFatura que demonstra as capacidades da classe Fatura.
+
 ### Ex Extra 01 - Maior Valor
 
 Receber 3 valores de entrada do usuário e retornar o maior deles.
