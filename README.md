@@ -8,6 +8,10 @@ Crie uma classe chamada Data que inclua três variáveis de instância — mês 
 
 Crie uma classe PessoaFisica e pense em quais atributos ela deve possuir. Um deles, obrigatoriamente, será o CPF. Garanta que nenhuma pessoa física seja criada sem um CPF, e que nenhuma pessoa física possua um CPF inválido. (Não é preciso criar o algoritmo de validação de CPF, apenas a assinatura do método)
 
+### [M2S02] Ex 03 - Classe Retângulo
+
+Crie uma classe Retangulo com os atributos comprimento e largura, cada um dos quais assume o valor padrão de 1. Forneça os métodos que calculam o perímetro e a área do retângulo. A classe tem métodos set e get para o comprimento e a largura. Os métodos set devem verificar se comprimento e largura são, cada um, números de ponto flutuante maiores que 0,0 e menores que 20,0. Escreva um programa para testar a classe Retangulo.
+
 ### Ex Extra 01 - Maior Valor
 
 Receber 3 valores de entrada do usuário e retornar o maior deles.
